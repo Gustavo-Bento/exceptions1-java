@@ -1,4 +1,4 @@
-package aplication;
+package application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,7 +10,7 @@ import model.entities.Reservation;
 public class Program {
 
 	public static void main(String[] args) throws ParseException {
-		// Primeira solução "RUIM"
+		// Primeira solução "MUITO RUIM"
 
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
